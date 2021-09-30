@@ -1,0 +1,92 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+/*header start*/
+
+header {
+	background-color: #0A22F4;
+	padding-top: 50px;
+	height: 387px;
+}
+
+.Main_Nav {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 150px 0;
+}
+
+.Main_Nav ul {
+	list-style: none;
+}
+
+.Main_Nav li {
+	display: inline-flex;
+}
+
+.Main_Nav a {
+	text-decoration: none;
+	color: white;
+	margin-left: 43px;
+}
+
+.Main_Nav .Contact {
+	color: black;
+	border: 20px solid;
+	border-color: white;
+	background-color: white;
+	padding: 0 30px 0;
+}
+
+/*header end*/
+
+/*section start*/
+
+section {
+	background-color: #0A22F4;
+}
+
+.Main_Section {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.Center_Img {
+	margin: 0 140px 0;
+	position: relative;
+	top: -70px;
+}
+
+.Sub_Section {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	position: relative;
+	top: -107px;
+	z-index: 0;
+}
+
+.Three_Dots img {
+	margin-left: 20px;
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	background-color: white;
+}
+
+.Left_Arrow {
+	transform: rotateY(180deg);
+	opacity: 50%;
+	margin-right: 22px;
+}
+
+/*section end*/
