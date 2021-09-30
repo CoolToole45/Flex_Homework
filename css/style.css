@@ -85,6 +85,10 @@ section {
 	background-color: white;
 }
 
+.Less_Opacity {
+	opacity: 50%;
+}
+
 .Left_Arrow {
 	transform: rotateY(180deg);
 	opacity: 50%;
