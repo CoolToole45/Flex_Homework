@@ -36,6 +36,7 @@ header {
 	text-decoration: none;
 	color: white;
 	margin-left: 43px;
+	font-family: "helveticaneue-regular";
 }
 
 .Main_Nav .Contact {
@@ -44,6 +45,7 @@ header {
 	border-color: white;
 	background-color: white;
 	padding: 0 30px 0;
+	font-family: "helveticaneue-bold";
 }
 
 /*header end*/
